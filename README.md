@@ -1,6 +1,6 @@
 # tk2d Sprite Extractor
 
-Extracts individual sprites from Unity games that use the 2D Toolkit (tk2d) sprite system. tk2d can either packs many small sprites into a single large texture, or a single texture into an optimized sprite (it might look like lots of jumbled up tiles). Is only confirmed to be working with the game HuniePop at the moment, which uses tk2d format version 3. Other games and version may or may not work. Fork or add issues if you need to.
+Extracts individual sprites from Unity games that use the 2D Toolkit (tk2d) sprite system. tk2d can either packs many small sprites into a single large texture, or a single texture into an optimized sprite (it might look like lots of jumbled up tiles). Is only confirmed to be working with the game HuniePop at the moment, which uses tk2d format version 3. Other games and versions may or may not work. Fork or add issues if you need to.
 
 Assets can be exported using [Asset Studio](https://github.com/aelurum/AssetStudio), but other Unity asset extractors will probably work as well. You'll want to extract the Texture2D atlas image files and the companion MonoBehaviour `tk2dSpriteCollectionData` JSON files that describe how to unpack the sprites.
 
