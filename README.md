@@ -1,4 +1,4 @@
-# tk2d Sprite Atlas Extractor
+# tk2d Sprite Extractor
 
 Extracts individual sprites from Unity games that use the 2D Toolkit (tk2d) sprite system. tk2d can either packs many small sprites into a single large texture, or a single texture into an optimized sprite (it might look like lots of jumbled up tiles). Is only confirmed to be working with the game HuniePop at the moment, which uses tk2d format version 3. Other games and version may or may not work. Fork or add issues if you need to.
 
